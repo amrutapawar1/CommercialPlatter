@@ -81,10 +81,93 @@
             cursor: pointer;
             text-decoration: underline;
         }
+        .mobile-bottom {
+    background: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+    border-top: 1px solid #3c3c3c;
+    display: none
+}
+
+.mobile-bottom ul {
+    padding: 0;
+    margin: 0;
+     display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mobile-bottom li {
+    display: inline-block;
+    width: 32%;
+    padding: 10px 10px;
+    color: #333;
+    text-align: center;
+    border-right: 1px solid #606060
+}
+
+.mobile-bottom .last-child {
+     border-right: none;
+}
+
+.mobile-bottom li i {
+    font-size: 20px;
+    color: #bb892c
+}
+
+.mobile-bottom li a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    font-size: 14px
+}
+
+.mobile-bottom img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0
+}
+
+@media screen and (max-width:767px) {
+    .mobile-bottom {
+        display: block
+    }
+}
     </style>
     <!-- header-->
     
     <body>
+          <div class="mobile-bottom">
+        <ul>
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=+918407977127%20&amp;text=Hello,%20Looking%20for%20Kolte%20Patil%20Projects,%20Pune.%20Get%20in%20touch%20with%20me%20my%20name%20is">
+                    <div class="sheak">
+                        <img src="images/whatsapp.png" alt="whatsapp">
+                    </div>
+                   
+                </a>
+            </li>
+            <li>
+              <a href="#" data-toggle="modal" data-target="#exampleModal">
+                    <div class="sheak">
+                   Enquire 
+                    </div>
+                </a>
+            </li>
+            <li class="last-child">
+                <a href="tel:+918407977127">
+                    <div class="sheak">
+                        <img src="images/phone.png" alt="phone">
+                    </div>
+                  
+                </a>
+            </li>
+        </ul>
+    </div>
     <header class="clearHeader inner_hDR">
         <div class="container">
             <div class="header-inner">
