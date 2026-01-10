@@ -948,7 +948,7 @@ span.divied {
     border-radius: 5px;
 }
 .modal-content .form-footer .form-group.contact_number input.form-control {
-    padding-left: 130px;
+   /* padding-left: 130px;*/
 }
 
 .modal-content .form-footer .form-group.contact_number input.form-control {
