@@ -1609,10 +1609,10 @@ div#configuration {
         font-size: 34px;
         line-height: 49px;
     }
-   /* .ptb-80 {
+    .ptb-80 {
         padding-top: 50px;
         padding-bottom: 50px;
-    }*/
+    }
     .carousel-caption {
         right: 7%;
         left: 7%;

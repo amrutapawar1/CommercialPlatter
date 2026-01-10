@@ -1463,10 +1463,10 @@ div#show_more_load button#loadMore:hover {
         font-size: 34px;
         line-height: 49px;
     }
-    .ptb-80 {
+    /*.ptb-80 {
         padding-top: 50px;
         padding-bottom: 50px;
-    }
+    }*/
     .product_price .details_btn_pro {
         padding: 9px 20px;
     }
